@@ -26,14 +26,14 @@ public class Practice4DrawPointView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-       paint.setStrokeWidth(20);
-       paint.setStrokeCap(Paint.Cap.ROUND);
-       canvas.drawPoint(50,50,paint);
-
-
 //       paint.setStrokeWidth(20);
-//       paint.setStrokeCap(Paint.Cap.SQUARE);
+//       paint.setStrokeCap(Paint.Cap.ROUND);
 //       canvas.drawPoint(50,50,paint);
+
+
+       paint.setStrokeWidth(20);
+       paint.setStrokeCap(Paint.Cap.SQUARE);
+       canvas.drawPoint(50,50,paint);
 
 //        练习内容：使用 canvas.drawPoint() 方法画点
 //        一个圆点，一个方点
